@@ -1,0 +1,50 @@
+================================================================================
+DATA QUALITY VALIDATION REPORT
+================================================================================
+
+SUMMARY STATISTICS
+--------------------------------------------------------------------------------
+Total Records Processed: 15
+Valid Records: 15 (100.0%)
+Invalid Records: 0 (0.0%)
+
+FIELD COMPLETENESS
+--------------------------------------------------------------------------------
+Url: 15/15 (100.0%)
+Title: 15/15 (100.0%)
+Content: 15/15 (100.0%)
+Date: 13/15 (86.7%)
+Author: 0/15 (0.0%)
+
+COMMON VALIDATION FAILURES
+--------------------------------------------------------------------------------
+No validation failures found.
+
+ERROR BREAKDOWN (BY CATEGORY)
+--------------------------------------------------------------------------------
+Records with missing required fields: 0
+Records with invalid URL format: 0
+Records with unwanted query parameters: 0
+Records with content below minimum length (100 chars): 0
+Records with title below minimum length (10 chars): 0
+Records with invalid date format: 0
+
+================================================================================
+DETAILED ERROR REPORT
+================================================================================
+
+No errors found! All records passed validation.
+
+================================================================================
+VALIDATION CRITERIA
+================================================================================
+1. Required Fields: All records must have 'url', 'title', and 'content' fields
+2. URL Format: URLs must be valid HTTP/HTTPS URLs
+3. URL Query Parameters: URLs should not contain unwanted query parameters (utm_source, utm_medium, utm_campaign, ref=broken, id=)
+4. Content Length: Content must be at least 100 characters
+5. Title Length: Title must be at least 10 characters
+6. Date Format: Dates must be in ISO format (YYYY-MM-DD) or 'N/A'
+
+================================================================================
+OVERALL STATUS: ✓ ALL RECORDS PASSED VALIDATION
+================================================================================
